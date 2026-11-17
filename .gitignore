@@ -1,0 +1,76 @@
+# ==========================================
+# 1. Backend (Spring Boot / Java / Maven)
+# ==========================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Log dosyaları
+*.log
+
+# ==========================================
+# 2. Frontend (React.js / Node.js)
+# ==========================================
+# Bağımlılıklar
+node_modules/
+/.pnp
+.pnp.js
+
+# Üretim (Build) çıktıları
+/build/
+/dist/
+
+# Loglar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 3. IDE ve Editör Yapılandırmaları
+# ==========================================
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### VS Code (Kullanma ihtimaline karşı) ###
+.vscode/
+
+### Eclipse / STS (Alternatif IDE'ler) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ==========================================
+# 4. İşletim Sistemi Dosyaları
+# ==========================================
+# macOS (MacBook kullandığın için kritik)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# 5. Ortam Değişkenleri ve Gizli Dosyalar (Güvenlik)
+# ==========================================
+# Veritabanı şifrelerini veya API anahtarlarını GitHub'a atmamak için
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Hassas Spring konfigürasyonları
+application-secret.properties
+application-secret.yml
